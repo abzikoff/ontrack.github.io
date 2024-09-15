@@ -1,4 +1,4 @@
-import { NAV_ITEMS, HOURS_IN_DAYБ, MIDNIGHT_HOUR } from './constants'
+import { NAV_ITEMS, HOURS_IN_DAY, MIDNIGHT_HOUR } from './constants'
 
 export function isPageValid(page) {
   return Object.keys(NAV_ITEMS).includes(page)
